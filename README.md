@@ -4,7 +4,7 @@
 
 # PROJECT STARWARS
 
-Este projeto é para fãs de STARWARS, aos quais podem fazer uma pesquisa sobre os planetas que são mostradas nas três trilogias da saga de George Lucas.
+Este projeto é para fãs de Star Wars, aos quais podem fazer uma pesquisa sobre os planetas que são mostradas nas três trilogias da saga de George Lucas. Ele possui 10 requisitos sendo 8 obrigátorios. Desta vez utilizando react hooks e contextAPI.
 
 
 ## Aprendizados
