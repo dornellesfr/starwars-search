@@ -2,7 +2,7 @@
 # Olá, eu sou o Fernando! 👋
 
 
-# PROJECT STARWARS
+# STARWARS SEARCH
 
 Este projeto é para fãs de Star Wars, aos quais podem fazer uma pesquisa sobre os planetas que são mostradas nas três trilogias da saga de George Lucas. Ele possui 10 requisitos sendo 8 obrigátorios. Desta vez utilizando react hooks e contextAPI.
 
@@ -21,6 +21,9 @@ Clone o projeto
 ```
 
 Entre no diretório do projeto
+```bash
+  cd star-wars-search
+```
 
 Instale as dependências
 
@@ -42,13 +45,16 @@ Para rodar os testes, rode o seguinte comando:
 ```bash
   npm run test
 ```
+
+## [Clique aqui](https://google.com) para visualizar o site funcional.
+
 ## Autores
 
 - [@dornellesfr](https://www.github.com/dornellesfr)
 
 
-## 🛠 Habilidades
-Javascript, HTML, CSS, React, RTL, Node, Express, Sequelize, MySQL, Docker.
+## 🛠 Habilidades e tecnologias
+Javascript, HTML, CSS, React, RTL, ContextAPI, Styled-components.
 
 
 ## 🔗 Links
