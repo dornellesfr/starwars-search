@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Main = styled.main`
   display: grid;
-  width: 93vw;
+  width: 80vw;
   border: 1px solid rgba(255, 255, 255, .5);
   padding: 2rem;
   border-radius: 30px;

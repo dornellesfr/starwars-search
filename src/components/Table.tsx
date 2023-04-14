@@ -102,7 +102,6 @@ function Table() {
 
       <StyledTable>
         <table>
-
           <thead>
             <tr>
               { formatedHeaders.map((head, index) => (

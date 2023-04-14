@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 const StyledTable = styled.div`
-  margin: 0;
+  margin-top: 80px;
   font-size: 0.9rem;
-  border-radius: 5px 5px 0 0;
   overflow: auto;
-  
+  height: 50vh;
 
   & table {
     border-collapse: collapse;
-    height: 2vh;
-    min-height: 400px;
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
   }
 
   & thead tr {
@@ -47,6 +47,28 @@ const StyledTable = styled.div`
   & tbody tr:last-child {
     border-bottom: 4px solid black;
   }
+
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgba(0, 0 ,0 , 0.1);
+    border: white solid 1px;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255 ,255 , 0.1);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255 ,255 , 0.5);
+  }
+
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
+
 `;
 
 export default StyledTable;
