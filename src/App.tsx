@@ -7,7 +7,9 @@ import Header from './styles/Header.style';
 function App() {
   return (
     <Provider>
-      <Header><img src={ logo } alt="logo-star-wars" /></Header>
+      <Header>
+        <img src={ logo } alt="logo-star-wars" />
+      </Header>
       <Table />
     </Provider>
   );

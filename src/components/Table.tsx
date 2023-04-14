@@ -4,6 +4,9 @@ import Loading from './Loading';
 import title from '../services/title';
 import { MyContextType, PlanetKey } from '../@types/search';
 import StyledTable from '../styles/Table.style';
+import Main from '../styles/FilterButtons.style';
+import Form from '../styles/Form.style';
+import { FaSearch } from 'react-icons/fa';
 
 function Table() {
   const { planets,
@@ -26,21 +29,19 @@ function Table() {
   ));
 
   return (
-    <div>
+    <Main>
 
-      <label htmlFor="name-filter">
-        Filtro pelo nome:
+      <label className="name-filter" htmlFor="name-filter">
         <input
           type="text"
           id="name-filter"
-          placeholder="find a planet by name"
           onChange={ searchPlanetByName }
           value={ filter.byName.name }
-          data-testid="name-filter"
         />
+        <FaSearch className="search-icon" id="name-filter"/>
       </label>
 
-      <form>
+      <Form>
         <label htmlFor="column-filter">
           Coluna:
           <select
@@ -97,7 +98,7 @@ function Table() {
         >
           Filtrar
         </button>
-      </form>
+      </Form>
 
       <StyledTable>
         <table>
@@ -130,7 +131,7 @@ function Table() {
           </tbody>
         </table>
       </StyledTable>
-    </div>
+    </Main>
   );
 }
 
