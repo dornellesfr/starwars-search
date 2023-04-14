@@ -4,12 +4,12 @@
 
 # STARWARS SEARCH
 
-Este projeto é para fãs de Star Wars, aos quais podem fazer uma pesquisa sobre os planetas que são mostradas nas três trilogias da saga de George Lucas. Ele possui 10 requisitos sendo 8 obrigátorios. Desta vez utilizando react hooks e contextAPI.
+Este projeto é para fãs de Star Wars, aos quais podem fazer uma pesquisa sobre os planetas que são mostradas nas três trilogias da saga de George Lucas.
 
 
 ## Aprendizados
 
-Neste aplicativo reforcei meus aprendizados em React, porém utilizando componentes funcionais, também como estado geral context api e testes com a biblioteca de testes do react.
+Na forma original deste aplicativo reforcei conceitos em React, porém utilizando componentes funcionais, também como estado geral context api e testes. No entanto, decidi refatorá-lo para componentes com novas tecnologias, inicializando o projeto utilizando o vite, com typescript(componentes tsx).
 Os desafios de organização de código, estado geral, implementação de filtros para os dados vindo da API e de modelagem de tabelas com HTML para exibição foram as dificuldades enfrentadas, entrentando, com pesquisas pude fazer a implementação de conglomerados de filtros que não podem ser aplicados repetidamente com atualização em tempo real. Também foram realizados parcialmente os testes com a biblioteca de testes do react.
 
 ## Rodando localmente
@@ -17,7 +17,7 @@ Os desafios de organização de código, estado geral, implementação de filtro
 Clone o projeto
 
 ```bash
-  git clone git@github.com:dornellesfr/starwars-project.git
+  git clone git@github.com:dornellesfr/starwars-search.git
 ```
 
 Entre no diretório do projeto
@@ -34,19 +34,10 @@ Instale as dependências
 Inicie o servidor
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
-
-## Rodando os testes
-
-Para rodar os testes, rode o seguinte comando:
-
-```bash
-  npm run test
-```
-
-## [Clique aqui](https://google.com) para visualizar o site funcional.
+## [Clique aqui](https://google.com) para visualizar o site funcional no seu navegador.
 
 ## Autores
 
@@ -54,7 +45,7 @@ Para rodar os testes, rode o seguinte comando:
 
 
 ## 🛠 Habilidades e tecnologias
-Javascript, HTML, CSS, React, RTL, ContextAPI, Styled-components.
+TypeScript, HTML, CSS, React, RTL, ContextAPI, Styled-components.
 
 
 ## 🔗 Links
@@ -68,6 +59,4 @@ Javascript, HTML, CSS, React, RTL, ContextAPI, Styled-components.
 Segue alguns projetos relacionados
 
 [ProjectRTL](https://github.com/dornellesfr/react-testing-library) |
-[TrybeWallet](https://github.com/dornellesfr/trybe-wallet) |
-[Tryunfo](https://github.com/dornellesfr/tryunfo) |
 [TrybeTunes](https://github.com/dornellesfr/trybe-tunes)
