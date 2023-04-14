@@ -4,7 +4,7 @@ const StyledTable = styled.div`
   border-collapse: collapse;
   margin: 25px 20px;
   font-size: 0.9rem;
-  max-height: 69vh;
+  max-height: 70vh;
   border-radius: 5px 5px 0 0;
   overflow: auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
