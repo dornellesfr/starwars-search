@@ -14,8 +14,8 @@ const StyledTable = styled.div`
   }
 
   & thead tr {
-    background-color: #000;
-    color: #fbe61a;
+    background-color: #2E3035;
+    color: #fff;
     text-align: center;
   }
   
@@ -30,18 +30,19 @@ const StyledTable = styled.div`
   & tbody td {
     padding: 15px 20px;
     text-align: center;
-    color: #000;
+    color: #fff;
     padding: 2rem;
     font-size: 1rem;
     font-weight: bolder;
   }
 
   & tbody tr:nth-child(even) {
-    background-color: rgba(251, 230 ,26 , 0.8);
+    /* background-color: rgba(251, 230 ,26 , 0.8); */
+    
   }
 
   & tbody tr:nth-child(odd) {
-    background-color: rgba(251, 230 ,26 , 1);
+    /* background-color: rgba(251, 230 ,26 , 1); */
   }
 
   & tbody tr:last-child {
