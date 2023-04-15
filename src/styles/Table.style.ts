@@ -8,7 +8,7 @@ const StyledTable = styled.div`
 
   & table {
     border-collapse: collapse;
-    height: 500px;
+    min-height: 300px;
     border-radius: 5px;
     overflow: hidden;
   }
@@ -24,7 +24,7 @@ const StyledTable = styled.div`
   }
 
   & tbody tr {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
   }
 
   & tbody td {
@@ -34,19 +34,6 @@ const StyledTable = styled.div`
     padding: 2rem;
     font-size: 1rem;
     font-weight: bolder;
-  }
-
-  & tbody tr:nth-child(even) {
-    /* background-color: rgba(251, 230 ,26 , 0.8); */
-    
-  }
-
-  & tbody tr:nth-child(odd) {
-    /* background-color: rgba(251, 230 ,26 , 1); */
-  }
-
-  & tbody tr:last-child {
-    border-bottom: 4px solid black;
   }
 
   ::-webkit-scrollbar {

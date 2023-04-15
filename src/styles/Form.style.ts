@@ -19,19 +19,32 @@ const Form = styled.form`
     background-color: transparent;
     border: none;
     color: white;
-    padding: 1rem;
+    padding: 0 1rem 1rem 0;
     outline: none;
   }
 
   & #column-filter {
+    border-bottom: 2px solid white;
   }
 
   & #comparison-filter {
+    border-bottom: 2px solid white;
   }
 
   & #value-filter {
-
+  -moz-appearance: textfield;
+  appearance: none;
   }
+
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+  }
+
+  input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+  }
+
 `;
 
 export default Form;
