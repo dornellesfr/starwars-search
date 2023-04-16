@@ -45,7 +45,7 @@ Inicie o servidor
 
 
 ## 🛠 Habilidades e tecnologias
-TypeScript, HTML, CSS, React, RTL, ContextAPI, Styled-components.
+TypeScript, HTML, CSS, React, RTL, ContextAPI, Styled-components e Vite.
 
 
 ## 🔗 Links
