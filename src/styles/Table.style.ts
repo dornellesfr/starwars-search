@@ -37,6 +37,7 @@ const StyledTable = styled.div`
     padding: 2rem;
     font-size: 1rem;
     font-weight: bolder;
+    background-color: rgba(18, 18, 19, 0.3)
   }
 
   ::-webkit-scrollbar {
