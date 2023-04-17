@@ -38,7 +38,8 @@ Inicie o servidor
 ```
 
 ## [Visualizar e interagir com o projeto](https://starwars-search-one.vercel.app/)
-![image](https://user-images.githubusercontent.com/89082686/232351098-cca7e698-7a0d-40d7-80dd-d4fc38b14ff6.png)
+![image](https://user-images.githubusercontent.com/89082686/232376003-c482df9a-ff4a-4388-afb0-b7344270ae5c.png)
+![image](https://user-images.githubusercontent.com/89082686/232376043-16c289c3-aeb1-4b9b-a322-935c2680df00.png)
 
 
 ## Autores
