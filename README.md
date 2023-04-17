@@ -22,7 +22,7 @@ Clone o projeto
 
 Entre no diretório do projeto
 ```bash
-  cd star-wars-search
+  cd starwars-search
 ```
 
 Instale as dependências
@@ -37,7 +37,7 @@ Inicie o servidor
   npm run dev
 ```
 
-## [Clique aqui](https://google.com) para visualizar o site funcional no seu navegador.
+## [Clique aqui](https://starwars-search-one.vercel.app/) para visualizar o site funcional no seu navegador.
 
 ## Autores
 
