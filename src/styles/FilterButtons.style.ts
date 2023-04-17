@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const Main = styled.main`
   display: grid;
-  width: 80vw;
+  min-width: 300px;
+  max-width: 1400px;
   border: 1px solid rgba(255, 255, 255, .5);
   padding: 2rem;
   border-radius: 30px;
@@ -42,6 +43,10 @@ const Main = styled.main`
 
   & .search-icon:active {
     color: #000;
+  }
+
+  & form {
+    
   }
 `;
 

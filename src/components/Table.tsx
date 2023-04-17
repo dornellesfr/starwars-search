@@ -43,7 +43,7 @@ function Table() {
 
       <Form>
         <label className="column-filter" htmlFor="column-filter">
-          Coluna
+          <p>Coluna</p>
           <select
             name="column-filter"
             id="column-filter"
@@ -66,7 +66,7 @@ function Table() {
         </label>
 
         <label className="comparison-filter" htmlFor="comparison-filter">
-          Operador
+          <p>Operador</p>
           <select
             name="comparison-filter"
             id="comparison-filter"
@@ -78,7 +78,6 @@ function Table() {
             <option id="comparison-filter" value="menor que">menor que</option>
             <option id="comparison-filter" value="igual a">igual a</option>
           </select>
-
         </label>
 
         <label className="value-filter" htmlFor="value-filter">
@@ -100,7 +99,7 @@ function Table() {
         </button>
       </Form>
 
-      <StyledTable>
+      <StyledTable className="table-container">
         <table>
           <thead>
             <tr>
