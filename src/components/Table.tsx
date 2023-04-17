@@ -23,6 +23,7 @@ function Table() {
   }: MyContextType = useContext(MyContext) ?? {} as MyContextType;
 
   if (header.length < 1) return <Loading />;
+
   const headers = Object.keys(header[0]);
   const formatedHeaders = headers.map((head) => (
     title(head.replace('_', ' '))
@@ -109,7 +110,7 @@ function Table() {
             </tr>
           </thead>
           <tbody>
-            { planets.filter(() => handleData).map((planet) => (
+            { planets.filter(handleData).map((planet) => (
               <tr key={ planet.name }>
                 <td>{ planet.name }</td>
                 <td>{ planet.rotation_period }</td>

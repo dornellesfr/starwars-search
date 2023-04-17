@@ -49,12 +49,12 @@ const StyledTable = styled.div`
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255 ,255 , 0.1);
+    background-color: rgba(255, 255 ,255 , 0.3);
     border-radius: 10px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(255, 255 ,255 , 0.5);
+    background-color: rgba(255, 255 ,255 , 0.8);
   }
 
   ::-webkit-scrollbar-corner {

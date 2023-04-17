@@ -42,20 +42,18 @@ function Provider({ children }: React.PropsWithChildren) {
   function handleData(planet: IPlanet): boolean {
     const bools: boolean[] = [];
   
-    if (filterNumerics.length > 0) {
-      filterNumerics.forEach((filtr: Numeric) => {
-        const { column, comparison, value } = filtr;
-        if (comparison === 'maior que') {
-          bools.push((Number(planet[column])> Number(value)));
-        }
-        if (comparison === 'menor que') {
-          bools.push(Number(planet[column]) < Number(value));
-        }
-        if (comparison === 'igual a') {
-          bools.push(Number(planet[column]) === value);
-        }
-      });
-    }
+    filterNumerics.forEach(({ column, comparison, value }: Numeric) => {
+
+      if (comparison === 'maior que') {
+        bools.push((Number(planet[column])> Number(value)));
+      }
+      if (comparison === 'menor que') {
+        bools.push(Number(planet[column]) < Number(value));
+      }
+      if (comparison === 'igual a') {
+        bools.push(Number(planet[column]) === Number(value));
+      }
+    });
     return bools.every((el) => el);
   }
 
@@ -68,14 +66,12 @@ function Provider({ children }: React.PropsWithChildren) {
 
   function columnFilter({ target }: React.ChangeEvent<HTMLSelectElement>) {
     setFilter({ ...filter,
-      byNumericValues: [{ ...filter.byNumericValues[0], column: (target.value as PlanetKey) }] });
+      byNumericValues: [{ ...filter.byNumericValues[0], column: target.value as PlanetKey }] });
   }
 
   function comparisonFilter({ target }: React.ChangeEvent<HTMLSelectElement>) {
-    if (target.value in { 'maior que': true, 'menor que': true, 'igual a': true }) {
-      setFilter({ ...filter,
-        byNumericValues: [{ ...filter.byNumericValues[0], comparison: target.value as Comparison }] });
-    }
+    setFilter({ ...filter,
+      byNumericValues: [{ ...filter.byNumericValues[0], comparison: target.value as Comparison }] });
   }
 
   function valueFilter({ target }: React.ChangeEvent<HTMLInputElement>) {
@@ -96,6 +92,8 @@ function Provider({ children }: React.PropsWithChildren) {
     });
   }
 
+  console.log(filterNumerics);
+  
 
   const contextValue = {
     planets,
@@ -121,7 +119,5 @@ function Provider({ children }: React.PropsWithChildren) {
 Provider.propTypes = {
   children: PropTypes.node.isRequired,
 };
-
-//
 
 export default Provider;
