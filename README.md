@@ -37,7 +37,9 @@ Inicie o servidor
   npm run dev
 ```
 
-## [Clique aqui](https://starwars-search-one.vercel.app/) para visualizar o site funcional no seu navegador.
+## [Visualizar e interagir com o projeto](https://starwars-search-one.vercel.app/)
+![image](https://user-images.githubusercontent.com/89082686/232351098-cca7e698-7a0d-40d7-80dd-d4fc38b14ff6.png)
+
 
 ## Autores
 
