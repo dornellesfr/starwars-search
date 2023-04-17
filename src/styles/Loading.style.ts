@@ -7,7 +7,7 @@ const LoadingStyle = styled.div`
     border: 5px solid white;
     border-color: white transparent transparent;
     border-radius: 50%;
-    animation: loading 1.5s;
+    animation: loading 1.5s infinite;
   }
 
   @keyframes loading {
