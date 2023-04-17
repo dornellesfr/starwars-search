@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
 const StyledTable = styled.div`
-  margin-top: 80px;
+  margin-top: 5%;
   font-size: 0.9rem;
   overflow: auto;
   height: 50vh;
+  width: 95%;
+  place-self: center;
 
   & table {
     border-collapse: collapse;
-    min-height: 300px;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
 
   & thead tr {
